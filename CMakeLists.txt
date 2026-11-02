@@ -46,7 +46,7 @@ set(SOURCE_FILES
     stm32/startup/startup_stm32f10x_md.c
     stm32/system_stm32f10x.c
     syscalls/syscalls.c
-    lab_03/main.c)
+    lab_04/main.c)
 
 # Копируем .gdbinit в папку сборки
 if(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/.gdbinit)
